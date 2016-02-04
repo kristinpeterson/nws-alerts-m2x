@@ -1,6 +1,6 @@
 # National Weather Service Alerts to M2X
 
-![NWS Alerts to M2X Logo](https://github.com/kristinpeterson/nws-alerts-m2x/images/logo.png)
+![NWS Alerts to M2X Logo](images/logo.png)
 
 This application checks for new weather alerts from the [National Weather Service](http://www.weather.gov/) and updates affected [M2X](https://m2x.att.com) devices by sending a [Command](https://m2x.att.com/developer/documentation/v2/commands) to the devices and also by updating streams on the device which provide a time-series log of the weather alert status, message & url.
 
@@ -8,7 +8,7 @@ To view the raw NWS RSS feed: http://alerts.weather.gov/cap/us.php?x=0
 
 ## Architecture
 
-![NWS Alerts Architecture Diagram](https://github.com/kristinpeterson/nws-alerts-m2x/images/architecture.png)
+![NWS Alerts Architecture Diagram](images/architecture.png)
 
 ## Pre-Requisites
 
@@ -64,7 +64,7 @@ Feel free to report any issues you encounter with this app via GitHub
 ## Thanks to...
 * [M2X](https://m2x.att.com): time-series data store
 * [Heroku](https://www.heroku.com): cloud application hosting
-* [National Weather Service Alerts]: http://alerts.weather.gov
+* [NWS Alerts](http://alerts.weather.gov): National Weather Service alerts RSS feed
 
 ## LICENSE
 
