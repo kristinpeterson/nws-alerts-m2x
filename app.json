@@ -1,0 +1,7 @@
+{
+  "name": "NWS Alerts to M2X",
+  "description": "Monitor weather alerts from the National Weather Service and update affected M2X devices.",
+  "repository": "https://github.com/kristinpeterson/nws-alerts-m2x",
+  "keywords": ["python", "m2x"],
+  "addons": ["heroku-postgresql", "scheduler"]
+}
