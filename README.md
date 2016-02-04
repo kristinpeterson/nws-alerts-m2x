@@ -23,7 +23,7 @@ The National Weather Service classifies the location of weather alerts by [FIPS6
 
 This application determines if an M2X device is affected by the weather alert based on the FIPS6 and UGC codes which should be stored in the device's metadata under keys `fips6` and `ugc` respectively.
 
-If you'd like FIPS6 & UGC codes to automatically update on your devices whenever the device updates it's location in M2X check out the [nws_geocoder](https://github.com/kristinpeterson/nws_geocoder) sample app.
+If you'd like FIPS6 & UGC codes to automatically update on your devices whenever the device updates it's location in M2X check out the [nws-geo-m2x](https://github.com/kristinpeterson/nws-geo-m2x) sample app.
 
 ## Installation
 
