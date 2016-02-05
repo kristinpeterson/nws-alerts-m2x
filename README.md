@@ -52,7 +52,7 @@ You can also [edit config vars](https://devcenter.heroku.com/articles/config-var
 This app employs a worker script which you will configure to run hourly using the Heroku Scheduler add-on. To configure, head to the Heroku Dashboard for the app and add the following job via the [Heroku Scheduler add-on](https://devcenter.heroku.com/articles/scheduler#scheduling-jobs):
 
 ```
-python nws-alerts-m2x/worker.py
+python nws_alerts_m2x/worker.py
 ```
 
 **Important Note:** the Heroku Scheduler has an option for running jobs at a frequency of `Every 10 Minutes`, `Hourly` or `Daily`. This script can run longer than 10 minutes depending on the number of new alerts and/or how many devices are being updated - thus you should choose a frequency of either `Hourly` or `Daily`, otherwise the script may be interrupted.
