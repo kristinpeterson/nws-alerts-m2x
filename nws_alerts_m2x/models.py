@@ -39,7 +39,7 @@ class Alert:
 
         try:
             if alert is None:
-                self.db.execute("INSERT INTO alerts (id, updated) VALUES ('%s', '%s', '%s');" % (alert_id, updated))
+                self.db.execute("INSERT INTO alerts (id, updated) VALUES ('%s', '%s');" % (alert_id, updated))
                 self.db.commit()
                 return 'created'
             else:
