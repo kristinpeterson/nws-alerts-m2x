@@ -3,5 +3,10 @@
   "description": "Monitor weather alerts from the National Weather Service and update affected M2X devices.",
   "repository": "https://github.com/kristinpeterson/nws-alerts-m2x",
   "keywords": ["python", "m2x"],
-  "addons": ["heroku-postgresql", "scheduler"]
+  "addons": ["heroku-postgresql", "scheduler"],
+  "env": {
+    "M2X_API_KEY": {
+      "description": "Your M2X Master API Key, for accessing your M2X resources."
+    }
+  }
 }
