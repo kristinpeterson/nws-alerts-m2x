@@ -178,7 +178,7 @@ def clear_expired_alerts():
                 continue
 
             if is_expired(alert_url):
-                update_device(device, alert_url='', message='', alert_status='expired')
+                get_stream(device, 'weather_alert_status').add_value('expired')
                 affected_devices.append(device)
                 Alert().delete(alert_url)
 
